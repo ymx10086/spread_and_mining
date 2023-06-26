@@ -65,8 +65,11 @@ def read_data(filename : str):
     :param filename: 数据文件名
     :return: 数据
     """
-    # 读取数据
-    data = pd.read_csv(filename, encoding='gbk', nrows=10)
+    # 读取数据，读取其中的10000到20000行
+    file = open(filename, encoding='gb18030', errors='ignore')
+    data = pd.read_csv(file, nrows=10000)
+    
+
     # 提取全文内容
     df = data['全文内容']
     # 提取第一个//@前的内容
@@ -85,9 +88,10 @@ def read_data(filename : str):
     return data
 
 if __name__ == '__main__':
-    filename = '../data/2022年全国高考A平台数据/34918267.csv'
+    filename = '../data/2022年全国高考A平台数据/34918274.csv'
+    # filename = '../data/34918274.csv'
     data = read_data(filename)
-    print(data)
+    print(data[:30000])
 
     # 返回参数形式
     # context: 此评论自身内容
