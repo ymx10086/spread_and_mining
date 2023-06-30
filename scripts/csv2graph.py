@@ -69,9 +69,12 @@ def add_edges_from_comment_dict(graph: Graph, comment_chain: dict, context: str,
             user2.add_forward_by(edge)
             graph.add_known_user(user1)
             graph.add_known_user(user2)
-                    
-    
-graph = Graph()
-add_csv_to_graph(graph, "../data/2022年全国高考A平台数据/34918267.csv")
-print('=' * 100)
-graph.to_json_file('../graph.json')
+
+
+if __name__ == '__main__':
+    graph = Graph()
+    add_csv_to_graph(graph, "../data/2022年全国高考A平台数据/34918267.csv")
+    print('=' * 100)
+    graph.to_json_file('../data/json/graph.json')
+
+    # nodes: {节点名：{出边:[{}， {}，...], 入边：[{}, ...]}, 节点名：{出边:[{}， {}，...], 入边：[{}, ...]}, ...}
