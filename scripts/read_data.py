@@ -9,6 +9,8 @@ import re
 
 # Path: scripts\read_data.py
 
+# 读取转发链 --> 字典
+
 # 正则匹配第一个//@前的内容，如果没有//@，则返回全部内容
 def get_first_comment(text):
     """
@@ -19,7 +21,7 @@ def get_first_comment(text):
     # 正则匹配第一个//@前的内容，如果没有//@，则返回全部内容
     pattern = re.compile(r'//@.*')
     # 匹配结果
-    result = pattern.findall(text)
+    result = pattern.findall(str(text))
     # 如果没有//@，则返回全部内容
     if len(result) == 0:
         return text
@@ -39,10 +41,10 @@ def get_comment(text):
     # 正则匹配每一个//@后面的内容到下一个//@前的内容，如果没有//@，则返回//后的内容
     pattern = re.compile(r'//@.*')
     # 匹配结果
-    result = pattern.findall(text)
+    result = pattern.findall(str(text))
     # 如果没有//@，则返回//后的内容
     if len(result) == 0:
-        return []
+        return None
     # 如果有//@，则返回每一个//@后面的内容到下一个//@前的内容
     else:
         # 以//@为分隔符，分割字符串
@@ -65,9 +67,15 @@ def read_data(filename : str):
     :param filename: 数据文件名
     :return: 数据
     """
-    # 读取数据，读取其中的10000到20000行
+    # 读取数据，读取其中除了最后一行的数据
     file = open(filename, encoding='gb18030', errors='ignore')
-    data = pd.read_csv(file, nrows=10000)
+    # 获取行数
+    lines = len(file.readlines())
+    # 关闭文件
+    file.close()
+    file = open(filename, encoding='gb18030', errors='ignore')
+    # 读取数据，读取其中除了最后一行的数据
+    data = pd.read_csv(file, on_bad_lines='skip', nrows=lines-20)
     
 
     # 提取全文内容
@@ -87,19 +95,21 @@ def read_data(filename : str):
     # 返回数据
     return data
 
-if __name__ == '__main__':
-    filename = '../data/2022年全国高考A平台数据/34918274.csv'
-    # filename = '../data/34918274.csv'
-    data = read_data(filename)
-    print(data[:30000])
 
-    # 返回参数形式
-    # context: 此评论自身内容
-    # comment: 此评论下的相关转发评论，字典形式，key为评论者，value为评论内容
-    # title: 标题
-    # comment_num: 评论数
-    # like_num: 点赞数
-    # forward_num: 转发数
-    # 例如：{'context': '[猪头]', 'comment': {'小铃铛-霖霖': 'http://t.cn/A6xAcwv4。??', ' 
-    # 长江国际十八楼团霸': '宝贝好久不见呀～祝我的宝贝新的一年万事胜意！高考加油！今年就要成年啦～真的过得好快～我们的小宝贝就要十八岁啦！我希望我的宝贝要一直开心下去呀！'}, 'title': '[猪头]//@小铃铛-霖霖:http://t.cn/A6xAcwv4。??//@长江国际十八楼团霸:宝贝好久不见呀～祝我的宝贝新的一年万事胜意！高考加油！今年就要成年啦～真的过得好快～ 
-    # 我们的小宝贝就要十八岁啦！我希望我的宝贝要一直开心下去呀！', 'comment_num': 0, 'like_num': 0, 'forward_num': 0}
+
+filename = '../data/2022年全国高考A平台数据/34918267.csv'
+data = read_data(filename)
+# for record in data:
+#     print(data)
+# print(data)
+
+# 返回参数形式
+# context: 此评论自身内容
+# comment: 此评论下的相关转发评论，字典形式，key为评论者，value为评论内容
+# title: 标题
+# comment_num: 评论数
+# like_num: 点赞数
+# forward_num: 转发数
+# 例如：{'context': '[猪头]', 'comment': {'小铃铛-霖霖': 'http://t.cn/A6xAcwv4。??', ' 
+# 长江国际十八楼团霸': '宝贝好久不见呀～祝我的宝贝新的一年万事胜意！高考加油！今年就要成年啦～真的过得好快～我们的小宝贝就要十八岁啦！我希望我的宝贝要一直开心下去呀！'}, 'title': '[猪头]//@小铃铛-霖霖:http://t.cn/A6xAcwv4。??//@长江国际十八楼团霸:宝贝好久不见呀～祝我的宝贝新的一年万事胜意！高考加油！今年就要成年啦～真的过得好快～ 
+# 我们的小宝贝就要十八岁啦！我希望我的宝贝要一直开心下去呀！', 'comment_num': 0, 'like_num': 0, 'forward_num': 0}
