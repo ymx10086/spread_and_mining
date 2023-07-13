@@ -18,6 +18,7 @@ class Edge:
         self.foward_num = foward_num
         self.comment_num = comment_num
         self.like_num = like_num
+        self.weight = like_num + comment_num + foward_num
 
     def str_equal(self, edge):
         """
@@ -33,7 +34,7 @@ class Edge:
         return self.content == other.content and self.from_user == other.from_user and self.to_user == other.to_user
 
     def print_edge(self):
-        return "(" + str(self.from_user) + ", " + str(self.to_user) + ")"
+        return "(" + str(self.from_user) + ", " + str(self.to_user) + "," + "weight = " + str(self.weight) + ")"
 
 class Node:
     def __init__(self, user_id) -> None:
@@ -173,6 +174,7 @@ class Graph:
             edge_dict['comment_num'] = edge.comment_num
             edge_dict['likes_num'] = edge.like_num
             edge_dict['forward_num'] = edge.foward_num
+            edge_dict['weight'] = edge.weight
             forward_edges.append(edge_dict)
 
         forward_by_edges = []
@@ -184,6 +186,7 @@ class Graph:
             edge_dict['comment_num'] = edge.comment_num
             edge_dict['likes_num'] = edge.like_num
             edge_dict['forward_num'] = edge.foward_num
+            edge_dict['weight'] = edge.weight
             forward_by_edges.append(edge_dict)
         return {'forward_edges':forward_edges, 'forward_by_edges':forward_by_edges}
     
