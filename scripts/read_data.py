@@ -97,8 +97,8 @@ def read_data(filename : str):
 
 
 
-filename = '../data/2022年全国高考A平台数据/34918267.csv'
-data = read_data(filename)
+# filename = '../data/2022年全国高考A平台数据/34918267.csv'
+# data = read_data(filename)
 # for record in data:
 #     print(data)
 # print(data)

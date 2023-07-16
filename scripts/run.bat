@@ -1,1 +1,4 @@
-python build_total_graph.py --mode generate --json_path ../json/A
+python build_total_graph.py ^
+--mode generate ^
+--batch_size 1 ^
+--json_path ../json

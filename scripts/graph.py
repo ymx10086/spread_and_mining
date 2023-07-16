@@ -31,7 +31,7 @@ class Edge:
         通过比较content+from_user+to_user比较是否是同一条边。边的去重时有用
         (注意：随时间变化转发链中的内容/点赞数可能会有不同(这应该是由于数据爬取过程中信息发生了变化)。去重时不可能考虑到所有情况，尽量使重复边比较少)
         """
-        return self.content == other.content and self.from_user == other.from_user and self.to_user == other.to_user
+        return self.from_user == other.from_user and self.to_user == other.to_user # and self.content == other.content
 
     def print_edge(self):
         return "(" + str(self.from_user) + ", " + str(self.to_user) + "," + "weight = " + str(self.weight) + ")"

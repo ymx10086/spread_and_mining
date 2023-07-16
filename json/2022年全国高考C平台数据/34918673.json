@@ -1,0 +1,32 @@
+{
+  "nodes": {
+    "海文考研教育online": {
+      "forward_edges": [
+        {
+          "from_user": "海文考研教育online",
+          "to_user": "海文考研教育",
+          "content": " [并不简单]",
+          "comment_num": 0,
+          "likes_num": 0,
+          "forward_num": 0,
+          "weight": 0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "海文考研教育": {
+      "forward_edges": [],
+      "forward_by_edges": [
+        {
+          "from_user": "海文考研教育online",
+          "to_user": "海文考研教育",
+          "content": " [并不简单]",
+          "comment_num": 0,
+          "likes_num": 0,
+          "forward_num": 0,
+          "weight": 0
+        }
+      ]
+    }
+  }
+}

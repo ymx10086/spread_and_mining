@@ -6,6 +6,7 @@ import os
 import json
 import pickle
 import argparse
+import time
 
 from graph import *
 from csv2graph import *
@@ -13,8 +14,8 @@ from csv2graph import *
 def parse_args():
     parser = argparse.ArgumentParser(description="set parameters for build total graph")
     parser.add_argument("--mode", default='generate', help="generate: generate graph from raw csv files; profile: profile graphs; prune: prune graphs")
-    parser.add_argument("--file_dir", default="../data/2022年全国高考A平台数据", help="which root file to build graph for")
-    parser.add_argument("--graph_bin_path", default='./graph_bin_data', help="save graph binary file")
+    parser.add_argument("--file_dir", default="../data/央视春晚D平台数据", help="which root file to build graph for")  # TODO: change this for reading different data
+    parser.add_argument("--graph_bin_path", default='../graph_bin_data', help="save graph binary file")
     parser.add_argument("--batch_size", default=5, help="output a sub graph every `batch_size` csv files")
     parser.add_argument("--json_path", default='', help="json file output dir, if not: won't save json file")
     parser.add_argument("--prune_rate", default=0.7, help="prune ratio")
@@ -42,28 +43,32 @@ if __name__ == '__main__':
     # 可以使用graph.profile函数对图的情况进行分析，方便选取剪枝参数n。具体见profile函数
     args = parse_args()
     if args.json_path is not None:
+        args.json_path = os.path.join(args.json_path, args.file_dir.split('/')[-1])
         if not os.path.exists(args.json_path):
             os.makedirs(args.json_path)
     if args.mode == 'generate':
         file_dir = args.file_dir
-        batch_size = args.batch_size
-        bin_path = args.graph_bin_path
+        batch_size = int(args.batch_size)
+        bin_path = os.path.join(args.graph_bin_path, file_dir.split('/')[-1])
         if not os.path.exists(bin_path):
             os.makedirs(bin_path)
+        args.graph_bin_path = bin_path
         print(f'generate graph from raw csv files under {file_dir}, batch size = {batch_size}, graph will be saved under {bin_path}')
         
         filename_list = os.listdir(file_dir)
         # filename_list  # len = 49
-        batch_num = 1
         for batch_num in range(1, (len(filename_list) - 1) // batch_size + 2):
             if batch_size * batch_num > len(filename_list):
                 start_idx, end_idx = (batch_num - 1) * batch_size, len(filename_list)
             else:
                 start_idx, end_idx = (batch_num - 1) * batch_size, batch_num * batch_size
             print(f'read batch {batch_num}')
+            start = time.time()
             read_one_batch(args, filename_list, start_idx, end_idx)
-            print(f'finish read batch {batch_num}')
+            spend_time = time.time() - start
+            print(f'finish read batch {batch_num}, spend {spend_time} s')
         print(f'finish generate.')
+              
               
     elif args.mode == 'profile':
         if not os.path.exists(args.profile_result_path):
@@ -76,6 +81,7 @@ if __name__ == '__main__':
                 graph = pickle.load(f)
                 print(f'{filename_list[i]} : {graph.profile()}')
         print(f'finish profile.')
+    
     
     if args.mode == 'prune':
         if not os.path.exists(args.prune_result_path):
