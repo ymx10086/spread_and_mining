@@ -1,8 +1,2 @@
 # 忽略 data/  文件夹下的文件
 data/
-
-# 忽略 doc/notes.txt, 不包括 doc/server/arch.txt
-doc/*.txt
- 
-# 忽略所有的 .pdf 文件 在 doc/ directory 下的
-doc/**/*.pdf

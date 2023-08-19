@@ -1,0 +1,4193 @@
+{
+  "nodes": {
+    "爱不代表一切再真心也会被阻绝": {
+      "forward_edges": [
+        {
+          "from_user": "爱不代表一切再真心也会被阻绝",
+          "to_user": "普通的糖醋排骨爱好者",
+          "content": "",
+          "comment_num": 0,
+          "likes_num": 4.0,
+          "forward_num": 11,
+          "weight": 15.0
+        }
+      ],
+      "forward_by_edges": [
+        {
+          "from_user": "Cee3R",
+          "to_user": "爱不代表一切再真心也会被阻绝",
+          "content": "",
+          "comment_num": 0,
+          "likes_num": 1.0,
+          "forward_num": 4,
+          "weight": 5.0
+        }
+      ]
+    },
+    "普通的糖醋排骨爱好者": {
+      "forward_edges": [
+        {
+          "from_user": "普通的糖醋排骨爱好者",
+          "to_user": "瘦肉加蛋唔摞葱",
+          "content": "",
+          "comment_num": 0,
+          "likes_num": 4.0,
+          "forward_num": 11,
+          "weight": 15.0
+        }
+      ],
+      "forward_by_edges": [
+        {
+          "from_user": "爱不代表一切再真心也会被阻绝",
+          "to_user": "普通的糖醋排骨爱好者",
+          "content": "",
+          "comment_num": 0,
+          "likes_num": 4.0,
+          "forward_num": 11,
+          "weight": 15.0
+        },
+        {
+          "from_user": "板烧鸡腿堡真好恰",
+          "to_user": "普通的糖醋排骨爱好者",
+          "content": "我也",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "瘦肉加蛋唔摞葱": {
+      "forward_edges": [
+        {
+          "from_user": "瘦肉加蛋唔摞葱",
+          "to_user": "eeezai",
+          "content": "",
+          "comment_num": 0,
+          "likes_num": 4.0,
+          "forward_num": 11,
+          "weight": 15.0
+        }
+      ],
+      "forward_by_edges": [
+        {
+          "from_user": "普通的糖醋排骨爱好者",
+          "to_user": "瘦肉加蛋唔摞葱",
+          "content": "",
+          "comment_num": 0,
+          "likes_num": 4.0,
+          "forward_num": 11,
+          "weight": 15.0
+        }
+      ]
+    },
+    "eeezai": {
+      "forward_edges": [],
+      "forward_by_edges": [
+        {
+          "from_user": "瘦肉加蛋唔摞葱",
+          "to_user": "eeezai",
+          "content": "",
+          "comment_num": 0,
+          "likes_num": 4.0,
+          "forward_num": 11,
+          "weight": 15.0
+        }
+      ]
+    },
+    "是双双叻": {
+      "forward_edges": [
+        {
+          "from_user": "是双双叻",
+          "to_user": "山水归遥",
+          "content": "xql就是要贴贴?",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "山水归遥": {
+      "forward_edges": [
+        {
+          "from_user": "山水归遥",
+          "to_user": "没办法比他更好了",
+          "content": "就是要贴贴",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": [
+        {
+          "from_user": "是双双叻",
+          "to_user": "山水归遥",
+          "content": "xql就是要贴贴?",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "没办法比他更好了": {
+      "forward_edges": [
+        {
+          "from_user": "没办法比他更好了",
+          "to_user": "海盐甜甜圈儿",
+          "content": "",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": [
+        {
+          "from_user": "山水归遥",
+          "to_user": "没办法比他更好了",
+          "content": "就是要贴贴",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        },
+        {
+          "from_user": "困比小狗",
+          "to_user": "没办法比他更好了",
+          "content": "有老婆的人 冬天兜兜里都会多出一双爪子是吧",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "海盐甜甜圈儿": {
+      "forward_edges": [
+        {
+          "from_user": "海盐甜甜圈儿",
+          "to_user": "卡肉依",
+          "content": "救命 小小年纪为什么这么会[泪]",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": [
+        {
+          "from_user": "没办法比他更好了",
+          "to_user": "海盐甜甜圈儿",
+          "content": "",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "卡肉依": {
+      "forward_edges": [],
+      "forward_by_edges": [
+        {
+          "from_user": "海盐甜甜圈儿",
+          "to_user": "卡肉依",
+          "content": "救命 小小年纪为什么这么会[泪]",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        },
+        {
+          "from_user": "等一颗流星_ky",
+          "to_user": "卡肉依",
+          "content": "",
+          "comment_num": 0,
+          "likes_num": 1.0,
+          "forward_num": 0,
+          "weight": 1.0
+        },
+        {
+          "from_user": "是凯源啦",
+          "to_user": "卡肉依",
+          "content": "救命甜死谁了",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        },
+        {
+          "from_user": "_小猫娘_",
+          "to_user": "卡肉依",
+          "content": "[笑cry][笑cry]",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "梦惜年i": {
+      "forward_edges": [
+        {
+          "from_user": "梦惜年i",
+          "to_user": "许清然-",
+          "content": "李易峰 李易峰 李易峰 你在搜吗[嘻嘻]",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "许清然-": {
+      "forward_edges": [],
+      "forward_by_edges": [
+        {
+          "from_user": "梦惜年i",
+          "to_user": "许清然-",
+          "content": "李易峰 李易峰 李易峰 你在搜吗[嘻嘻]",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "永冻之域冰之玖玖 ": {
+      "forward_edges": [
+        {
+          "from_user": "永冻之域冰之玖玖 ",
+          "to_user": "夢安眠於九霄 ",
+          "content": "",
+          "comment_num": 0,
+          "likes_num": 1.0,
+          "forward_num": 0,
+          "weight": 1.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "夢安眠於九霄 ": {
+      "forward_edges": [
+        {
+          "from_user": "夢安眠於九霄 ",
+          "to_user": "Numenor悲歌 ",
+          "content": "“大雄，千万不要学隔壁姐姐，春节还在自己一个人打守望先锋”.JPG",
+          "comment_num": 0,
+          "likes_num": 1.0,
+          "forward_num": 0,
+          "weight": 1.0
+        }
+      ],
+      "forward_by_edges": [
+        {
+          "from_user": "永冻之域冰之玖玖 ",
+          "to_user": "夢安眠於九霄 ",
+          "content": "",
+          "comment_num": 0,
+          "likes_num": 1.0,
+          "forward_num": 0,
+          "weight": 1.0
+        }
+      ]
+    },
+    "Numenor悲歌 ": {
+      "forward_edges": [],
+      "forward_by_edges": [
+        {
+          "from_user": "夢安眠於九霄 ",
+          "to_user": "Numenor悲歌 ",
+          "content": "“大雄，千万不要学隔壁姐姐，春节还在自己一个人打守望先锋”.JPG",
+          "comment_num": 0,
+          "likes_num": 1.0,
+          "forward_num": 0,
+          "weight": 1.0
+        }
+      ]
+    },
+    "Cee3R": {
+      "forward_edges": [
+        {
+          "from_user": "Cee3R",
+          "to_user": "爱不代表一切再真心也会被阻绝",
+          "content": "",
+          "comment_num": 0,
+          "likes_num": 1.0,
+          "forward_num": 4,
+          "weight": 5.0
+        }
+      ],
+      "forward_by_edges": [
+        {
+          "from_user": "白衣绣鹤",
+          "to_user": "Cee3R",
+          "content": "",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        },
+        {
+          "from_user": "northpoleL",
+          "to_user": "Cee3R",
+          "content": "",
+          "comment_num": 0,
+          "likes_num": 1.0,
+          "forward_num": 0,
+          "weight": 1.0
+        }
+      ]
+    },
+    "发送短信77kuku77": {
+      "forward_edges": [
+        {
+          "from_user": "发送短信77kuku77",
+          "to_user": "爱心超市有UREI",
+          "content": "[兔子]",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "爱心超市有UREI": {
+      "forward_edges": [],
+      "forward_by_edges": [
+        {
+          "from_user": "发送短信77kuku77",
+          "to_user": "爱心超市有UREI",
+          "content": "[兔子]",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "等一颗流星_ky": {
+      "forward_edges": [
+        {
+          "from_user": "等一颗流星_ky",
+          "to_user": "卡肉依",
+          "content": "",
+          "comment_num": 0,
+          "likes_num": 1.0,
+          "forward_num": 0,
+          "weight": 1.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "无情的点赞鲨鱼": {
+      "forward_edges": [
+        {
+          "from_user": "无情的点赞鲨鱼",
+          "to_user": "爱潜水的乌贼本尊",
+          "content": "其实只是乌贼老师的晋升序列0的仪式，需要暴露真名，在百万观众的注视下吞食魔药。。。[doge]",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": [
+        {
+          "from_user": "风炫文化传媒",
+          "to_user": "无情的点赞鲨鱼",
+          "content": "回复@无情的点赞鲨鱼:[doge]",
+          "comment_num": 0,
+          "likes_num": 1.0,
+          "forward_num": 2,
+          "weight": 3.0
+        }
+      ]
+    },
+    "爱潜水的乌贼本尊": {
+      "forward_edges": [],
+      "forward_by_edges": [
+        {
+          "from_user": "无情的点赞鲨鱼",
+          "to_user": "爱潜水的乌贼本尊",
+          "content": "其实只是乌贼老师的晋升序列0的仪式，需要暴露真名，在百万观众的注视下吞食魔药。。。[doge]",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        },
+        {
+          "from_user": "诡秘之主官方A",
+          "to_user": "爱潜水的乌贼本尊",
+          "content": "期待新的一年，可以看到更多袁野老师[二哈][二哈]的文字",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        },
+        {
+          "from_user": "楓_吱吱-he",
+          "to_user": "爱潜水的乌贼本尊",
+          "content": "哇",
+          "comment_num": 0,
+          "likes_num": 2.0,
+          "forward_num": 0,
+          "weight": 2.0
+        }
+      ]
+    },
+    "诡秘之主官方A": {
+      "forward_edges": [
+        {
+          "from_user": "诡秘之主官方A",
+          "to_user": "爱潜水的乌贼本尊",
+          "content": "期待新的一年，可以看到更多袁野老师[二哈][二哈]的文字",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": [
+        {
+          "from_user": "踹勺子",
+          "to_user": "诡秘之主官方A",
+          "content": "终于知道乌贼的尊（真）名啦x",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        },
+        {
+          "from_user": "Adu_昨日重现",
+          "to_user": "诡秘之主官方A",
+          "content": "谢谢你，袁老师（不是",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        },
+        {
+          "from_user": "温温是2秒de绅士",
+          "to_user": "诡秘之主官方A",
+          "content": "乌贼老师痛失网名[哆啦A梦害怕]",
+          "comment_num": 1,
+          "likes_num": 0.0,
+          "forward_num": 2,
+          "weight": 3.0
+        },
+        {
+          "from_user": "特伦索斯特黄铜书",
+          "to_user": "诡秘之主官方A",
+          "content": "",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "拖拉大王_AQing": {
+      "forward_edges": [
+        {
+          "from_user": "拖拉大王_AQing",
+          "to_user": "柚子圈圈c",
+          "content": "卷卷",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "柚子圈圈c": {
+      "forward_edges": [
+        {
+          "from_user": "柚子圈圈c",
+          "to_user": "人间研究员",
+          "content": "",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": [
+        {
+          "from_user": "拖拉大王_AQing",
+          "to_user": "柚子圈圈c",
+          "content": "卷卷",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "人间研究员": {
+      "forward_edges": [],
+      "forward_by_edges": [
+        {
+          "from_user": "柚子圈圈c",
+          "to_user": "人间研究员",
+          "content": "",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "白衣绣鹤 ": {
+      "forward_edges": [
+        {
+          "from_user": "白衣绣鹤 ",
+          "to_user": "Cee3R ",
+          "content": "",
+          "comment_num": 0,
+          "likes_num": 2.0,
+          "forward_num": 1,
+          "weight": 3.0
+        }
+      ],
+      "forward_by_edges": [
+        {
+          "from_user": "Arigatito",
+          "to_user": "白衣绣鹤 ",
+          "content": "",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "Cee3R ": {
+      "forward_edges": [
+        {
+          "from_user": "Cee3R ",
+          "to_user": "爱不代表一切再真心也会被阻绝 ",
+          "content": "",
+          "comment_num": 0,
+          "likes_num": 2.0,
+          "forward_num": 1,
+          "weight": 3.0
+        }
+      ],
+      "forward_by_edges": [
+        {
+          "from_user": "白衣绣鹤 ",
+          "to_user": "Cee3R ",
+          "content": "",
+          "comment_num": 0,
+          "likes_num": 2.0,
+          "forward_num": 1,
+          "weight": 3.0
+        }
+      ]
+    },
+    "爱不代表一切再真心也会被阻绝 ": {
+      "forward_edges": [
+        {
+          "from_user": "爱不代表一切再真心也会被阻绝 ",
+          "to_user": "普通的糖醋排骨爱好者 ",
+          "content": "",
+          "comment_num": 0,
+          "likes_num": 2.0,
+          "forward_num": 1,
+          "weight": 3.0
+        }
+      ],
+      "forward_by_edges": [
+        {
+          "from_user": "Cee3R ",
+          "to_user": "爱不代表一切再真心也会被阻绝 ",
+          "content": "",
+          "comment_num": 0,
+          "likes_num": 2.0,
+          "forward_num": 1,
+          "weight": 3.0
+        }
+      ]
+    },
+    "普通的糖醋排骨爱好者 ": {
+      "forward_edges": [
+        {
+          "from_user": "普通的糖醋排骨爱好者 ",
+          "to_user": "瘦肉加蛋唔摞葱 ",
+          "content": "",
+          "comment_num": 0,
+          "likes_num": 2.0,
+          "forward_num": 1,
+          "weight": 3.0
+        }
+      ],
+      "forward_by_edges": [
+        {
+          "from_user": "爱不代表一切再真心也会被阻绝 ",
+          "to_user": "普通的糖醋排骨爱好者 ",
+          "content": "",
+          "comment_num": 0,
+          "likes_num": 2.0,
+          "forward_num": 1,
+          "weight": 3.0
+        }
+      ]
+    },
+    "瘦肉加蛋唔摞葱 ": {
+      "forward_edges": [
+        {
+          "from_user": "瘦肉加蛋唔摞葱 ",
+          "to_user": "eeezai ",
+          "content": "",
+          "comment_num": 0,
+          "likes_num": 2.0,
+          "forward_num": 1,
+          "weight": 3.0
+        }
+      ],
+      "forward_by_edges": [
+        {
+          "from_user": "普通的糖醋排骨爱好者 ",
+          "to_user": "瘦肉加蛋唔摞葱 ",
+          "content": "",
+          "comment_num": 0,
+          "likes_num": 2.0,
+          "forward_num": 1,
+          "weight": 3.0
+        }
+      ]
+    },
+    "eeezai ": {
+      "forward_edges": [],
+      "forward_by_edges": [
+        {
+          "from_user": "瘦肉加蛋唔摞葱 ",
+          "to_user": "eeezai ",
+          "content": "",
+          "comment_num": 0,
+          "likes_num": 2.0,
+          "forward_num": 1,
+          "weight": 3.0
+        }
+      ]
+    },
+    "AU·被超蛊了": {
+      "forward_edges": [
+        {
+          "from_user": "AU·被超蛊了",
+          "to_user": "·长风夜雨",
+          "content": "@ 我爸妈，复盘一下女婿[开学季]",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": [
+        {
+          "from_user": "Kumquat·寓诚心意",
+          "to_user": "AU·被超蛊了",
+          "content": "考前复习",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "·长风夜雨": {
+      "forward_edges": [],
+      "forward_by_edges": [
+        {
+          "from_user": "AU·被超蛊了",
+          "to_user": "·长风夜雨",
+          "content": "@ 我爸妈，复盘一下女婿[开学季]",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "不想再炸号的搬砖狗": {
+      "forward_edges": [
+        {
+          "from_user": "不想再炸号的搬砖狗",
+          "to_user": "猎户星座Z先生",
+          "content": " ",
+          "comment_num": 6,
+          "likes_num": 9.0,
+          "forward_num": 6,
+          "weight": 21.0
+        }
+      ],
+      "forward_by_edges": [
+        {
+          "from_user": "大牛市人",
+          "to_user": "不想再炸号的搬砖狗",
+          "content": " 菜菜子真是干了很坏的坏事。。。",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "猎户星座Z先生": {
+      "forward_edges": [
+        {
+          "from_user": "猎户星座Z先生",
+          "to_user": "猫狗catdog",
+          "content": "太尴尬了[允悲]",
+          "comment_num": 6,
+          "likes_num": 9.0,
+          "forward_num": 6,
+          "weight": 21.0
+        }
+      ],
+      "forward_by_edges": [
+        {
+          "from_user": "不想再炸号的搬砖狗",
+          "to_user": "猎户星座Z先生",
+          "content": " ",
+          "comment_num": 6,
+          "likes_num": 9.0,
+          "forward_num": 6,
+          "weight": 21.0
+        }
+      ]
+    },
+    "猫狗catdog": {
+      "forward_edges": [],
+      "forward_by_edges": [
+        {
+          "from_user": "猎户星座Z先生",
+          "to_user": "猫狗catdog",
+          "content": "太尴尬了[允悲]",
+          "comment_num": 6,
+          "likes_num": 9.0,
+          "forward_num": 6,
+          "weight": 21.0
+        }
+      ]
+    },
+    "呆桃的桃桃子": {
+      "forward_edges": [
+        {
+          "from_user": "呆桃的桃桃子",
+          "to_user": "多边形土豆有毒",
+          "content": "还是多多关注你家脖子这个喉咙什么时候治好吧，常年咳嗽吞口水，台词都没力气了，这恐怖的喉结一看就病得不清吧 http://t.cn/A6Jfntry ",
+          "comment_num": 0,
+          "likes_num": 1.0,
+          "forward_num": 0,
+          "weight": 1.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "多边形土豆有毒": {
+      "forward_edges": [],
+      "forward_by_edges": [
+        {
+          "from_user": "呆桃的桃桃子",
+          "to_user": "多边形土豆有毒",
+          "content": "还是多多关注你家脖子这个喉咙什么时候治好吧，常年咳嗽吞口水，台词都没力气了，这恐怖的喉结一看就病得不清吧 http://t.cn/A6Jfntry ",
+          "comment_num": 0,
+          "likes_num": 1.0,
+          "forward_num": 0,
+          "weight": 1.0
+        }
+      ]
+    },
+    "o迷幻天使o": {
+      "forward_edges": [
+        {
+          "from_user": "o迷幻天使o",
+          "to_user": "是我呀小鲔鱼",
+          "content": "卧槽？？？？？？",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "是我呀小鲔鱼": {
+      "forward_edges": [],
+      "forward_by_edges": [
+        {
+          "from_user": "o迷幻天使o",
+          "to_user": "是我呀小鲔鱼",
+          "content": "卧槽？？？？？？",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "dear从前有只小逗比": {
+      "forward_edges": [
+        {
+          "from_user": "dear从前有只小逗比",
+          "to_user": "Karohui红豆汤圆",
+          "content": "#凯源[超话]#看p1我笑得好大声哈哈哈哈哈哈哈",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 2,
+          "weight": 2.0
+        }
+      ],
+      "forward_by_edges": [
+        {
+          "from_user": "·渝州梦游·",
+          "to_user": "dear从前有只小逗比",
+          "content": "哈哈哈哈哈哈哈",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "Karohui红豆汤圆": {
+      "forward_edges": [],
+      "forward_by_edges": [
+        {
+          "from_user": "dear从前有只小逗比",
+          "to_user": "Karohui红豆汤圆",
+          "content": "#凯源[超话]#看p1我笑得好大声哈哈哈哈哈哈哈",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 2,
+          "weight": 2.0
+        }
+      ]
+    },
+    "推诿一块糖": {
+      "forward_edges": [
+        {
+          "from_user": "推诿一块糖",
+          "to_user": "谁上动物园看猪 ",
+          "content": "嘿嘿??",
+          "comment_num": 0,
+          "likes_num": 1.0,
+          "forward_num": 1,
+          "weight": 2.0
+        },
+        {
+          "from_user": "推诿一块糖",
+          "to_user": "长命百岁这事一次就好 ",
+          "content": "马丽瘦下来就1",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": [
+        {
+          "from_user": "长命百岁这事一次就好",
+          "to_user": "推诿一块糖",
+          "content": "卡哇1也是1",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "谁上动物园看猪 ": {
+      "forward_edges": [],
+      "forward_by_edges": [
+        {
+          "from_user": "推诿一块糖",
+          "to_user": "谁上动物园看猪 ",
+          "content": "嘿嘿??",
+          "comment_num": 0,
+          "likes_num": 1.0,
+          "forward_num": 1,
+          "weight": 2.0
+        }
+      ]
+    },
+    "六桃手里的暖宝宝tamia": {
+      "forward_edges": [
+        {
+          "from_user": "六桃手里的暖宝宝tamia",
+          "to_user": "八月小七bot",
+          "content": "好多人……",
+          "comment_num": 3,
+          "likes_num": 2.0,
+          "forward_num": 3,
+          "weight": 8.0
+        }
+      ],
+      "forward_by_edges": [
+        {
+          "from_user": "阳光飘逸的云",
+          "to_user": "六桃手里的暖宝宝tamia",
+          "content": "时刻注意他人的安全，暖心桃子[抱一抱]",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "八月小七bot": {
+      "forward_edges": [
+        {
+          "from_user": "八月小七bot",
+          "to_user": "Candy_withTamia",
+          "content": "好有礼貌喔宝儿[亲亲]",
+          "comment_num": 3,
+          "likes_num": 2.0,
+          "forward_num": 3,
+          "weight": 8.0
+        },
+        {
+          "from_user": "八月小七bot",
+          "to_user": "我真的没有在喝奶茶",
+          "content": "“涛姐加油！”小桃攥紧小拳拳[拳头][亲亲]",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 2,
+          "weight": 2.0
+        }
+      ],
+      "forward_by_edges": [
+        {
+          "from_user": "六桃手里的暖宝宝tamia",
+          "to_user": "八月小七bot",
+          "content": "好多人……",
+          "comment_num": 3,
+          "likes_num": 2.0,
+          "forward_num": 3,
+          "weight": 8.0
+        },
+        {
+          "from_user": "冰块儿里的桃",
+          "to_user": "八月小七bot",
+          "content": "[可怜][可怜]",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "Candy_withTamia": {
+      "forward_edges": [],
+      "forward_by_edges": [
+        {
+          "from_user": "八月小七bot",
+          "to_user": "Candy_withTamia",
+          "content": "好有礼貌喔宝儿[亲亲]",
+          "comment_num": 3,
+          "likes_num": 2.0,
+          "forward_num": 3,
+          "weight": 8.0
+        }
+      ]
+    },
+    "桃子琳er": {
+      "forward_edges": [
+        {
+          "from_user": "桃子琳er",
+          "to_user": "莱布尼茨的小迷妹儿",
+          "content": "谢谢央视爸爸[赢牛奶][赢牛奶]",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "莱布尼茨的小迷妹儿": {
+      "forward_edges": [
+        {
+          "from_user": "莱布尼茨的小迷妹儿",
+          "to_user": "Moonstar嗜梦",
+          "content": "谢谢[春游家族]",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": [
+        {
+          "from_user": "桃子琳er",
+          "to_user": "莱布尼茨的小迷妹儿",
+          "content": "谢谢央视爸爸[赢牛奶][赢牛奶]",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "Moonstar嗜梦": {
+      "forward_edges": [
+        {
+          "from_user": "Moonstar嗜梦",
+          "to_user": "我真的只是想起个名字",
+          "content": "谢谢谢谢",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": [
+        {
+          "from_user": "莱布尼茨的小迷妹儿",
+          "to_user": "Moonstar嗜梦",
+          "content": "谢谢[春游家族]",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        },
+        {
+          "from_user": "M寒冬腊月盼春风L",
+          "to_user": "Moonstar嗜梦",
+          "content": "加油！",
+          "comment_num": 0,
+          "likes_num": 4.0,
+          "forward_num": 3,
+          "weight": 7.0
+        },
+        {
+          "from_user": "要起飞的小脸猫",
+          "to_user": "Moonstar嗜梦",
+          "content": "谢谢谢谢非常谢谢",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "我真的只是想起个名字": {
+      "forward_edges": [],
+      "forward_by_edges": [
+        {
+          "from_user": "Moonstar嗜梦",
+          "to_user": "我真的只是想起个名字",
+          "content": "谢谢谢谢",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        },
+        {
+          "from_user": "车站的云",
+          "to_user": "我真的只是想起个名字",
+          "content": "蟹蟹！[悲伤]",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "动动动动动动_": {
+      "forward_edges": [
+        {
+          "from_user": "动动动动动动_",
+          "to_user": "顺腾摸瓜一只猹",
+          "content": "常远那张图，央视门口还有那么古早的电话亭遗址哪（重点错）期待腾！加油！",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "顺腾摸瓜一只猹": {
+      "forward_edges": [
+        {
+          "from_user": "顺腾摸瓜一只猹",
+          "to_user": "伊万格得勒",
+          "content": " 啊啊啊啊啊啊啊沈腾！！！",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": [
+        {
+          "from_user": "动动动动动动_",
+          "to_user": "顺腾摸瓜一只猹",
+          "content": "常远那张图，央视门口还有那么古早的电话亭遗址哪（重点错）期待腾！加油！",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        },
+        {
+          "from_user": "泡腾片本片",
+          "to_user": "顺腾摸瓜一只猹",
+          "content": "腾哥[打call][打call]祝彩排顺利[给你小心心][给你小心心]",
+          "comment_num": 0,
+          "likes_num": 1.0,
+          "forward_num": 0,
+          "weight": 1.0
+        },
+        {
+          "from_user": "Ms_Elbencathy",
+          "to_user": "顺腾摸瓜一只猹",
+          "content": "沈腾是大宝贝[悲伤]",
+          "comment_num": 0,
+          "likes_num": 1.0,
+          "forward_num": 0,
+          "weight": 1.0
+        }
+      ]
+    },
+    "伊万格得勒": {
+      "forward_edges": [
+        {
+          "from_user": "伊万格得勒",
+          "to_user": "东边没有西瓜",
+          "content": " 又来拯救春晚了吗",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": [
+        {
+          "from_user": "顺腾摸瓜一只猹",
+          "to_user": "伊万格得勒",
+          "content": " 啊啊啊啊啊啊啊沈腾！！！",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "东边没有西瓜": {
+      "forward_edges": [],
+      "forward_by_edges": [
+        {
+          "from_user": "伊万格得勒",
+          "to_user": "东边没有西瓜",
+          "content": " 又来拯救春晚了吗",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "菜_Star": {
+      "forward_edges": [
+        {
+          "from_user": "菜_Star",
+          "to_user": "呆毛想恰糖栗子",
+          "content": "不许再被砍了！！",
+          "comment_num": 0,
+          "likes_num": 1.0,
+          "forward_num": 0,
+          "weight": 1.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "呆毛想恰糖栗子": {
+      "forward_edges": [
+        {
+          "from_user": "呆毛想恰糖栗子",
+          "to_user": "马丽的双下巴",
+          "content": "期待期待期待[求关注]",
+          "comment_num": 0,
+          "likes_num": 1.0,
+          "forward_num": 0,
+          "weight": 1.0
+        }
+      ],
+      "forward_by_edges": [
+        {
+          "from_user": "菜_Star",
+          "to_user": "呆毛想恰糖栗子",
+          "content": "不许再被砍了！！",
+          "comment_num": 0,
+          "likes_num": 1.0,
+          "forward_num": 0,
+          "weight": 1.0
+        },
+        {
+          "from_user": "栗子泡芙团",
+          "to_user": "呆毛想恰糖栗子",
+          "content": "期待期待天呐[好爱哦]",
+          "comment_num": 0,
+          "likes_num": 1.0,
+          "forward_num": 0,
+          "weight": 1.0
+        }
+      ]
+    },
+    "马丽的双下巴": {
+      "forward_edges": [],
+      "forward_by_edges": [
+        {
+          "from_user": "呆毛想恰糖栗子",
+          "to_user": "马丽的双下巴",
+          "content": "期待期待期待[求关注]",
+          "comment_num": 0,
+          "likes_num": 1.0,
+          "forward_num": 0,
+          "weight": 1.0
+        }
+      ]
+    },
+    "栗子泡芙团": {
+      "forward_edges": [
+        {
+          "from_user": "栗子泡芙团",
+          "to_user": "呆毛想恰糖栗子",
+          "content": "期待期待天呐[好爱哦]",
+          "comment_num": 0,
+          "likes_num": 1.0,
+          "forward_num": 0,
+          "weight": 1.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "M寒冬腊月盼春风L": {
+      "forward_edges": [
+        {
+          "from_user": "M寒冬腊月盼春风L",
+          "to_user": "Moonstar嗜梦",
+          "content": "加油！",
+          "comment_num": 0,
+          "likes_num": 4.0,
+          "forward_num": 3,
+          "weight": 7.0
+        }
+      ],
+      "forward_by_edges": [
+        {
+          "from_user": "芝草o_o",
+          "to_user": "M寒冬腊月盼春风L",
+          "content": "啊啊啊啊啊啊过年好",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "Blue爱吸果栗橙": {
+      "forward_edges": [
+        {
+          "from_user": "Blue爱吸果栗橙",
+          "to_user": "谁上动物园看猪",
+          "content": "等个沈老师 我要哭了[泪][泪][泪][泪][泪][泪][泪][泪][泪][泪][泪][泪][泪][泪]",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "谁上动物园看猪": {
+      "forward_edges": [],
+      "forward_by_edges": [
+        {
+          "from_user": "Blue爱吸果栗橙",
+          "to_user": "谁上动物园看猪",
+          "content": "等个沈老师 我要哭了[泪][泪][泪][泪][泪][泪][泪][泪][泪][泪][泪][泪][泪][泪]",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        },
+        {
+          "from_user": "小钱爱吃菠萝油",
+          "to_user": "谁上动物园看猪",
+          "content": "醒腾脑壳怎么这么大",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "·落小萱-": {
+      "forward_edges": [
+        {
+          "from_user": "·落小萱-",
+          "to_user": "多喝养乐多多干活",
+          "content": "",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "多喝养乐多多干活": {
+      "forward_edges": [
+        {
+          "from_user": "多喝养乐多多干活",
+          "to_user": "盐甜系追LY",
+          "content": "",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": [
+        {
+          "from_user": "·落小萱-",
+          "to_user": "多喝养乐多多干活",
+          "content": "",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "盐甜系追LY": {
+      "forward_edges": [
+        {
+          "from_user": "盐甜系追LY",
+          "to_user": "刘妤唇珠给我嘬一口",
+          "content": "",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": [
+        {
+          "from_user": "多喝养乐多多干活",
+          "to_user": "盐甜系追LY",
+          "content": "",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "刘妤唇珠给我嘬一口": {
+      "forward_edges": [
+        {
+          "from_user": "刘妤唇珠给我嘬一口",
+          "to_user": "喜马拉雅山的女儿",
+          "content": "",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": [
+        {
+          "from_user": "盐甜系追LY",
+          "to_user": "刘妤唇珠给我嘬一口",
+          "content": "",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "喜马拉雅山的女儿": {
+      "forward_edges": [
+        {
+          "from_user": "喜马拉雅山的女儿",
+          "to_user": "兰妃静静",
+          "content": "",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": [
+        {
+          "from_user": "刘妤唇珠给我嘬一口",
+          "to_user": "喜马拉雅山的女儿",
+          "content": "",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "兰妃静静": {
+      "forward_edges": [
+        {
+          "from_user": "兰妃静静",
+          "to_user": "好哦小刺猬",
+          "content": "",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": [
+        {
+          "from_user": "喜马拉雅山的女儿",
+          "to_user": "兰妃静静",
+          "content": "",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "好哦小刺猬": {
+      "forward_edges": [
+        {
+          "from_user": "好哦小刺猬",
+          "to_user": "凤梨姜茶",
+          "content": "",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": [
+        {
+          "from_user": "兰妃静静",
+          "to_user": "好哦小刺猬",
+          "content": "",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "凤梨姜茶": {
+      "forward_edges": [
+        {
+          "from_user": "凤梨姜茶",
+          "to_user": "YAU_WL",
+          "content": "#刘宇A之夜# ",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": [
+        {
+          "from_user": "好哦小刺猬",
+          "to_user": "凤梨姜茶",
+          "content": "",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "YAU_WL": {
+      "forward_edges": [
+        {
+          "from_user": "YAU_WL",
+          "to_user": "小宇在游荡824hz",
+          "content": "2",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": [
+        {
+          "from_user": "凤梨姜茶",
+          "to_user": "YAU_WL",
+          "content": "#刘宇A之夜# ",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "小宇在游荡824hz": {
+      "forward_edges": [
+        {
+          "from_user": "小宇在游荡824hz",
+          "to_user": "星f2021063001",
+          "content": "",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": [
+        {
+          "from_user": "YAU_WL",
+          "to_user": "小宇在游荡824hz",
+          "content": "2",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "星f2021063001": {
+      "forward_edges": [
+        {
+          "from_user": "星f2021063001",
+          "to_user": "追追楓",
+          "content": "",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": [
+        {
+          "from_user": "小宇在游荡824hz",
+          "to_user": "星f2021063001",
+          "content": "",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "追追楓": {
+      "forward_edges": [
+        {
+          "from_user": "追追楓",
+          "to_user": "桑乔的大眼仔",
+          "content": "",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": [
+        {
+          "from_user": "星f2021063001",
+          "to_user": "追追楓",
+          "content": "",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "桑乔的大眼仔": {
+      "forward_edges": [],
+      "forward_by_edges": [
+        {
+          "from_user": "追追楓",
+          "to_user": "桑乔的大眼仔",
+          "content": "",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "长命百岁这事一次就好": {
+      "forward_edges": [
+        {
+          "from_user": "长命百岁这事一次就好",
+          "to_user": "侯準",
+          "content": "哈哈哈哈哈",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 1,
+          "weight": 1.0
+        },
+        {
+          "from_user": "长命百岁这事一次就好",
+          "to_user": "推诿一块糖",
+          "content": "卡哇1也是1",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": [
+        {
+          "from_user": "吃掉菜丸",
+          "to_user": "长命百岁这事一次就好",
+          "content": "哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈我真是笑死",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "侯準": {
+      "forward_edges": [],
+      "forward_by_edges": [
+        {
+          "from_user": "长命百岁这事一次就好",
+          "to_user": "侯準",
+          "content": "哈哈哈哈哈",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 1,
+          "weight": 1.0
+        }
+      ]
+    },
+    "榴莲籽肆": {
+      "forward_edges": [
+        {
+          "from_user": "榴莲籽肆",
+          "to_user": "FxxkingRealMarkson",
+          "content": "新帽子get",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "FxxkingRealMarkson": {
+      "forward_edges": [
+        {
+          "from_user": "FxxkingRealMarkson",
+          "to_user": "C热爱可抵岁月漫长",
+          "content": "",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": [
+        {
+          "from_user": "榴莲籽肆",
+          "to_user": "FxxkingRealMarkson",
+          "content": "新帽子get",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "C热爱可抵岁月漫长": {
+      "forward_edges": [],
+      "forward_by_edges": [
+        {
+          "from_user": "FxxkingRealMarkson",
+          "to_user": "C热爱可抵岁月漫长",
+          "content": "",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "Mr_迪hyun": {
+      "forward_edges": [
+        {
+          "from_user": "Mr_迪hyun",
+          "to_user": "是旺仔老馒头",
+          "content": "woc曾黎出息了[泪]",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "是旺仔老馒头": {
+      "forward_edges": [
+        {
+          "from_user": "是旺仔老馒头",
+          "to_user": "梨子酱小陈",
+          "content": "饼终于画成功了一次！！！",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": [
+        {
+          "from_user": "Mr_迪hyun",
+          "to_user": "是旺仔老馒头",
+          "content": "woc曾黎出息了[泪]",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "梨子酱小陈": {
+      "forward_edges": [
+        {
+          "from_user": "梨子酱小陈",
+          "to_user": "秋大将",
+          "content": "啊啊啊啊啊啊妈妈哭了[悲伤][悲伤][悲伤]女儿出息了[悲伤][悲伤]",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": [
+        {
+          "from_user": "是旺仔老馒头",
+          "to_user": "梨子酱小陈",
+          "content": "饼终于画成功了一次！！！",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "秋大将": {
+      "forward_edges": [
+        {
+          "from_user": "秋大将",
+          "to_user": "梨梨子超甜",
+          "content": "啥？我信了啊！央视春晚！！！！我女出息了[苦涩][苦涩]",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": [
+        {
+          "from_user": "梨子酱小陈",
+          "to_user": "秋大将",
+          "content": "啊啊啊啊啊啊妈妈哭了[悲伤][悲伤][悲伤]女儿出息了[悲伤][悲伤]",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "梨梨子超甜": {
+      "forward_edges": [],
+      "forward_by_edges": [
+        {
+          "from_user": "秋大将",
+          "to_user": "梨梨子超甜",
+          "content": "啥？我信了啊！央视春晚！！！！我女出息了[苦涩][苦涩]",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "长命百岁这事一次就好 ": {
+      "forward_edges": [],
+      "forward_by_edges": [
+        {
+          "from_user": "推诿一块糖",
+          "to_user": "长命百岁这事一次就好 ",
+          "content": "马丽瘦下来就1",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "别惹小夜": {
+      "forward_edges": [
+        {
+          "from_user": "别惹小夜",
+          "to_user": "-云子倩-",
+          "content": "这还用猜",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "-云子倩-": {
+      "forward_edges": [
+        {
+          "from_user": "-云子倩-",
+          "to_user": "IOLE-",
+          "content": "",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": [
+        {
+          "from_user": "别惹小夜",
+          "to_user": "-云子倩-",
+          "content": "这还用猜",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "IOLE-": {
+      "forward_edges": [
+        {
+          "from_user": "IOLE-",
+          "to_user": "_渡鸦Graaay_",
+          "content": "妈的哈哈哈哈哈哈哈",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": [
+        {
+          "from_user": "-云子倩-",
+          "to_user": "IOLE-",
+          "content": "",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "_渡鸦Graaay_": {
+      "forward_edges": [
+        {
+          "from_user": "_渡鸦Graaay_",
+          "to_user": "Isa_Gotham的氪星妖精",
+          "content": "救命",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": [
+        {
+          "from_user": "IOLE-",
+          "to_user": "_渡鸦Graaay_",
+          "content": "妈的哈哈哈哈哈哈哈",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "Isa_Gotham的氪星妖精": {
+      "forward_edges": [
+        {
+          "from_user": "Isa_Gotham的氪星妖精",
+          "to_user": "此君__",
+          "content": "哈哈哈哈哈哈哈哈哈哈他妈的",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": [
+        {
+          "from_user": "_渡鸦Graaay_",
+          "to_user": "Isa_Gotham的氪星妖精",
+          "content": "救命",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "此君__": {
+      "forward_edges": [
+        {
+          "from_user": "此君__",
+          "to_user": "鲢鱼寿司",
+          "content": "笑死别全中了",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": [
+        {
+          "from_user": "Isa_Gotham的氪星妖精",
+          "to_user": "此君__",
+          "content": "哈哈哈哈哈哈哈哈哈哈他妈的",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "鲢鱼寿司": {
+      "forward_edges": [
+        {
+          "from_user": "鲢鱼寿司",
+          "to_user": "抖妹W",
+          "content": "笑死",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": [
+        {
+          "from_user": "此君__",
+          "to_user": "鲢鱼寿司",
+          "content": "笑死别全中了",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "抖妹W": {
+      "forward_edges": [
+        {
+          "from_user": "抖妹W",
+          "to_user": "Erica也可以叫小E",
+          "content": "",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": [
+        {
+          "from_user": "鲢鱼寿司",
+          "to_user": "抖妹W",
+          "content": "笑死",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "Erica也可以叫小E": {
+      "forward_edges": [
+        {
+          "from_user": "Erica也可以叫小E",
+          "to_user": "什么时候有桃花 ",
+          "content": "金水金水",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": [
+        {
+          "from_user": "抖妹W",
+          "to_user": "Erica也可以叫小E",
+          "content": "",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "什么时候有桃花 ": {
+      "forward_edges": [],
+      "forward_by_edges": [
+        {
+          "from_user": "Erica也可以叫小E",
+          "to_user": "什么时候有桃花 ",
+          "content": "金水金水",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "小原辞": {
+      "forward_edges": [
+        {
+          "from_user": "小原辞",
+          "to_user": "·屿舒星河_",
+          "content": "加油",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "·屿舒星河_": {
+      "forward_edges": [],
+      "forward_by_edges": [
+        {
+          "from_user": "小原辞",
+          "to_user": "·屿舒星河_",
+          "content": "加油",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "名族bot": {
+      "forward_edges": [
+        {
+          "from_user": "名族bot",
+          "to_user": "大战僵尸小豌豆",
+          "content": "[猪头]",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "大战僵尸小豌豆": {
+      "forward_edges": [],
+      "forward_by_edges": [
+        {
+          "from_user": "名族bot",
+          "to_user": "大战僵尸小豌豆",
+          "content": "[猪头]",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "729声工场": {
+      "forward_edges": [
+        {
+          "from_user": "729声工场",
+          "to_user": "阿杰729",
+          "content": "#CCTV网络春晚# #央视2022网络春晚官宣# 2022，继续发出开新的声音！",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "阿杰729": {
+      "forward_edges": [],
+      "forward_by_edges": [
+        {
+          "from_user": "729声工场",
+          "to_user": "阿杰729",
+          "content": "#CCTV网络春晚# #央视2022网络春晚官宣# 2022，继续发出开新的声音！",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "踹勺子": {
+      "forward_edges": [
+        {
+          "from_user": "踹勺子",
+          "to_user": "诡秘之主官方A",
+          "content": "终于知道乌贼的尊（真）名啦x",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "怪咖日韩人肉张0726": {
+      "forward_edges": [
+        {
+          "from_user": "怪咖日韩人肉张0726",
+          "to_user": "冰儿爱笔",
+          "content": "脐带[可憐]",
+          "comment_num": 0,
+          "likes_num": 1.0,
+          "forward_num": 0,
+          "weight": 1.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "冰儿爱笔": {
+      "forward_edges": [
+        {
+          "from_user": "冰儿爱笔",
+          "to_user": "周笔畅的Rhinoceros",
+          "content": "#周笔畅[超话]#期待",
+          "comment_num": 0,
+          "likes_num": 1.0,
+          "forward_num": 0,
+          "weight": 1.0
+        }
+      ],
+      "forward_by_edges": [
+        {
+          "from_user": "怪咖日韩人肉张0726",
+          "to_user": "冰儿爱笔",
+          "content": "脐带[可憐]",
+          "comment_num": 0,
+          "likes_num": 1.0,
+          "forward_num": 0,
+          "weight": 1.0
+        }
+      ]
+    },
+    "周笔畅的Rhinoceros": {
+      "forward_edges": [
+        {
+          "from_user": "周笔畅的Rhinoceros",
+          "to_user": "tts抢奶瓶",
+          "content": "期待周笔畅！！如燕[春游家族][春游家族][春游家族]#周笔畅[超话]# ",
+          "comment_num": 0,
+          "likes_num": 1.0,
+          "forward_num": 0,
+          "weight": 1.0
+        }
+      ],
+      "forward_by_edges": [
+        {
+          "from_user": "冰儿爱笔",
+          "to_user": "周笔畅的Rhinoceros",
+          "content": "#周笔畅[超话]#期待",
+          "comment_num": 0,
+          "likes_num": 1.0,
+          "forward_num": 0,
+          "weight": 1.0
+        }
+      ]
+    },
+    "tts抢奶瓶": {
+      "forward_edges": [],
+      "forward_by_edges": [
+        {
+          "from_user": "周笔畅的Rhinoceros",
+          "to_user": "tts抢奶瓶",
+          "content": "期待周笔畅！！如燕[春游家族][春游家族][春游家族]#周笔畅[超话]# ",
+          "comment_num": 0,
+          "likes_num": 1.0,
+          "forward_num": 0,
+          "weight": 1.0
+        }
+      ]
+    },
+    "要起飞的小脸猫": {
+      "forward_edges": [
+        {
+          "from_user": "要起飞的小脸猫",
+          "to_user": "Moonstar嗜梦",
+          "content": "谢谢谢谢非常谢谢",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "真的是秃小于哈": {
+      "forward_edges": [
+        {
+          "from_user": "真的是秃小于哈",
+          "to_user": "晋啊卿",
+          "content": "欢天喜地过新年???",
+          "comment_num": 0,
+          "likes_num": 1.0,
+          "forward_num": 1,
+          "weight": 2.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "晋啊卿": {
+      "forward_edges": [
+        {
+          "from_user": "晋啊卿",
+          "to_user": "-不要说胡话",
+          "content": "！！哦莫哦莫",
+          "comment_num": 0,
+          "likes_num": 1.0,
+          "forward_num": 1,
+          "weight": 2.0
+        }
+      ],
+      "forward_by_edges": [
+        {
+          "from_user": "真的是秃小于哈",
+          "to_user": "晋啊卿",
+          "content": "欢天喜地过新年???",
+          "comment_num": 0,
+          "likes_num": 1.0,
+          "forward_num": 1,
+          "weight": 2.0
+        }
+      ]
+    },
+    "-不要说胡话": {
+      "forward_edges": [],
+      "forward_by_edges": [
+        {
+          "from_user": "晋啊卿",
+          "to_user": "-不要说胡话",
+          "content": "！！哦莫哦莫",
+          "comment_num": 0,
+          "likes_num": 1.0,
+          "forward_num": 1,
+          "weight": 2.0
+        }
+      ]
+    },
+    "龙丹妮职粉": {
+      "forward_edges": [
+        {
+          "from_user": "龙丹妮职粉",
+          "to_user": "妤你摘星辰",
+          "content": "央视春晚，会的",
+          "comment_num": 1,
+          "likes_num": 0.0,
+          "forward_num": 1,
+          "weight": 2.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "妤你摘星辰": {
+      "forward_edges": [
+        {
+          "from_user": "妤你摘星辰",
+          "to_user": "BIU苏杰",
+          "content": "夸他！！！",
+          "comment_num": 1,
+          "likes_num": 0.0,
+          "forward_num": 1,
+          "weight": 2.0
+        }
+      ],
+      "forward_by_edges": [
+        {
+          "from_user": "龙丹妮职粉",
+          "to_user": "妤你摘星辰",
+          "content": "央视春晚，会的",
+          "comment_num": 1,
+          "likes_num": 0.0,
+          "forward_num": 1,
+          "weight": 2.0
+        }
+      ]
+    },
+    "BIU苏杰": {
+      "forward_edges": [
+        {
+          "from_user": "BIU苏杰",
+          "to_user": "INTO1-刘宇",
+          "content": "厉害个球，写作业去，什么时候真的站在春晚上再说",
+          "comment_num": 1,
+          "likes_num": 0.0,
+          "forward_num": 1,
+          "weight": 2.0
+        }
+      ],
+      "forward_by_edges": [
+        {
+          "from_user": "妤你摘星辰",
+          "to_user": "BIU苏杰",
+          "content": "夸他！！！",
+          "comment_num": 1,
+          "likes_num": 0.0,
+          "forward_num": 1,
+          "weight": 2.0
+        }
+      ]
+    },
+    "INTO1-刘宇": {
+      "forward_edges": [],
+      "forward_by_edges": [
+        {
+          "from_user": "BIU苏杰",
+          "to_user": "INTO1-刘宇",
+          "content": "厉害个球，写作业去，什么时候真的站在春晚上再说",
+          "comment_num": 1,
+          "likes_num": 0.0,
+          "forward_num": 1,
+          "weight": 2.0
+        }
+      ]
+    },
+    "5伐4瓦宁54瓦特额宁": {
+      "forward_edges": [
+        {
+          "from_user": "5伐4瓦宁54瓦特额宁",
+          "to_user": "笑话有木有",
+          "content": "喜欢当年相声的样子 转眼36年了",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "笑话有木有": {
+      "forward_edges": [],
+      "forward_by_edges": [
+        {
+          "from_user": "5伐4瓦宁54瓦特额宁",
+          "to_user": "笑话有木有",
+          "content": "喜欢当年相声的样子 转眼36年了",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "梦舟99号的指定球衣": {
+      "forward_edges": [
+        {
+          "from_user": "梦舟99号的指定球衣",
+          "to_user": "喜欢的尽头是依旧喜欢",
+          "content": "腾的口罩都比别人小哈哈哈哈哈哈哈",
+          "comment_num": 0,
+          "likes_num": 1.0,
+          "forward_num": 0,
+          "weight": 1.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "喜欢的尽头是依旧喜欢": {
+      "forward_edges": [
+        {
+          "from_user": "喜欢的尽头是依旧喜欢",
+          "to_user": "DevotionChen",
+          "content": "我的春晚快乐源泉[开学季][开学季]",
+          "comment_num": 0,
+          "likes_num": 1.0,
+          "forward_num": 0,
+          "weight": 1.0
+        }
+      ],
+      "forward_by_edges": [
+        {
+          "from_user": "梦舟99号的指定球衣",
+          "to_user": "喜欢的尽头是依旧喜欢",
+          "content": "腾的口罩都比别人小哈哈哈哈哈哈哈",
+          "comment_num": 0,
+          "likes_num": 1.0,
+          "forward_num": 0,
+          "weight": 1.0
+        }
+      ]
+    },
+    "DevotionChen": {
+      "forward_edges": [],
+      "forward_by_edges": [
+        {
+          "from_user": "喜欢的尽头是依旧喜欢",
+          "to_user": "DevotionChen",
+          "content": "我的春晚快乐源泉[开学季][开学季]",
+          "comment_num": 0,
+          "likes_num": 1.0,
+          "forward_num": 0,
+          "weight": 1.0
+        }
+      ]
+    },
+    "暴飲拿鐵": {
+      "forward_edges": [
+        {
+          "from_user": "暴飲拿鐵",
+          "to_user": "板烧鸡腿堡真好恰",
+          "content": "嗯嗯",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "板烧鸡腿堡真好恰": {
+      "forward_edges": [
+        {
+          "from_user": "板烧鸡腿堡真好恰",
+          "to_user": "普通的糖醋排骨爱好者",
+          "content": "我也",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": [
+        {
+          "from_user": "暴飲拿鐵",
+          "to_user": "板烧鸡腿堡真好恰",
+          "content": "嗯嗯",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "芝草o_o": {
+      "forward_edges": [
+        {
+          "from_user": "芝草o_o",
+          "to_user": "M寒冬腊月盼春风L",
+          "content": "啊啊啊啊啊啊过年好",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "这个果子涩涩的": {
+      "forward_edges": [
+        {
+          "from_user": "这个果子涩涩的",
+          "to_user": "GladioLus_笃",
+          "content": "哟！终于来啦[开学季]",
+          "comment_num": 0,
+          "likes_num": 1.0,
+          "forward_num": 0,
+          "weight": 1.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "GladioLus_笃": {
+      "forward_edges": [
+        {
+          "from_user": "GladioLus_笃",
+          "to_user": "官卿Sinnie",
+          "content": "终于我还是可以看一下的[doge]",
+          "comment_num": 0,
+          "likes_num": 1.0,
+          "forward_num": 0,
+          "weight": 1.0
+        }
+      ],
+      "forward_by_edges": [
+        {
+          "from_user": "这个果子涩涩的",
+          "to_user": "GladioLus_笃",
+          "content": "哟！终于来啦[开学季]",
+          "comment_num": 0,
+          "likes_num": 1.0,
+          "forward_num": 0,
+          "weight": 1.0
+        }
+      ]
+    },
+    "官卿Sinnie": {
+      "forward_edges": [],
+      "forward_by_edges": [
+        {
+          "from_user": "GladioLus_笃",
+          "to_user": "官卿Sinnie",
+          "content": "终于我还是可以看一下的[doge]",
+          "comment_num": 0,
+          "likes_num": 1.0,
+          "forward_num": 0,
+          "weight": 1.0
+        }
+      ]
+    },
+    "顺腾摸瓜一只猹 ": {
+      "forward_edges": [
+        {
+          "from_user": "顺腾摸瓜一只猹 ",
+          "to_user": "伊万格得勒 ",
+          "content": "啊啊啊啊啊啊啊沈腾！！！",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": [
+        {
+          "from_user": "SAI恩斯",
+          "to_user": "顺腾摸瓜一只猹 ",
+          "content": "啊啊啊啊啊啊期待",
+          "comment_num": 0,
+          "likes_num": 1.0,
+          "forward_num": 0,
+          "weight": 1.0
+        }
+      ]
+    },
+    "伊万格得勒 ": {
+      "forward_edges": [
+        {
+          "from_user": "伊万格得勒 ",
+          "to_user": "东边没有西瓜 ",
+          "content": " 又来拯救春晚了吗",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": [
+        {
+          "from_user": "顺腾摸瓜一只猹 ",
+          "to_user": "伊万格得勒 ",
+          "content": "啊啊啊啊啊啊啊沈腾！！！",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "东边没有西瓜 ": {
+      "forward_edges": [],
+      "forward_by_edges": [
+        {
+          "from_user": "伊万格得勒 ",
+          "to_user": "东边没有西瓜 ",
+          "content": " 又来拯救春晚了吗",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "白衣绣鹤": {
+      "forward_edges": [
+        {
+          "from_user": "白衣绣鹤",
+          "to_user": "Cee3R",
+          "content": "",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "大牛市人": {
+      "forward_edges": [
+        {
+          "from_user": "大牛市人",
+          "to_user": "不想再炸号的搬砖狗",
+          "content": " 菜菜子真是干了很坏的坏事。。。",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "宁跟我走一趟": {
+      "forward_edges": [
+        {
+          "from_user": "宁跟我走一趟",
+          "to_user": "迪卡曼达",
+          "content": "喜欢雨衣[爱你]",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "迪卡曼达": {
+      "forward_edges": [],
+      "forward_by_edges": [
+        {
+          "from_user": "宁跟我走一趟",
+          "to_user": "迪卡曼达",
+          "content": "喜欢雨衣[爱你]",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "Adu_昨日重现": {
+      "forward_edges": [
+        {
+          "from_user": "Adu_昨日重现",
+          "to_user": "诡秘之主官方A",
+          "content": "谢谢你，袁老师（不是",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "給我一隻貓916": {
+      "forward_edges": [
+        {
+          "from_user": "給我一隻貓916",
+          "to_user": "如水白开",
+          "content": "#周深2021新歌收听人数突破1亿# ",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        },
+        {
+          "from_user": "給我一隻貓916",
+          "to_user": "深深淺淺星星鐵粉",
+          "content": "#央视虎年春晚# [兔子]#央视2022网络春晚官宣# ",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "如水白开": {
+      "forward_edges": [],
+      "forward_by_edges": [
+        {
+          "from_user": "給我一隻貓916",
+          "to_user": "如水白开",
+          "content": "#周深2021新歌收听人数突破1亿# ",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "永冻之域冰之玖玖": {
+      "forward_edges": [
+        {
+          "from_user": "永冻之域冰之玖玖",
+          "to_user": "夢安眠於九霄",
+          "content": " ",
+          "comment_num": 0,
+          "likes_num": 5.0,
+          "forward_num": 0,
+          "weight": 5.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "夢安眠於九霄": {
+      "forward_edges": [
+        {
+          "from_user": "夢安眠於九霄",
+          "to_user": "Numenor悲歌",
+          "content": "“大雄，千万不要学隔壁姐姐，春节还在自己一个人打守望先锋”.JPG",
+          "comment_num": 0,
+          "likes_num": 5.0,
+          "forward_num": 0,
+          "weight": 5.0
+        }
+      ],
+      "forward_by_edges": [
+        {
+          "from_user": "永冻之域冰之玖玖",
+          "to_user": "夢安眠於九霄",
+          "content": " ",
+          "comment_num": 0,
+          "likes_num": 5.0,
+          "forward_num": 0,
+          "weight": 5.0
+        }
+      ]
+    },
+    "Numenor悲歌": {
+      "forward_edges": [],
+      "forward_by_edges": [
+        {
+          "from_user": "夢安眠於九霄",
+          "to_user": "Numenor悲歌",
+          "content": "“大雄，千万不要学隔壁姐姐，春节还在自己一个人打守望先锋”.JPG",
+          "comment_num": 0,
+          "likes_num": 5.0,
+          "forward_num": 0,
+          "weight": 5.0
+        }
+      ]
+    },
+    "冰块儿里的桃": {
+      "forward_edges": [
+        {
+          "from_user": "冰块儿里的桃",
+          "to_user": "八月小七bot",
+          "content": "[可怜][可怜]",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "风炫文化传媒": {
+      "forward_edges": [
+        {
+          "from_user": "风炫文化传媒",
+          "to_user": "无情的点赞鲨鱼",
+          "content": "回复@无情的点赞鲨鱼:[doge]",
+          "comment_num": 0,
+          "likes_num": 1.0,
+          "forward_num": 2,
+          "weight": 3.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "吃掉菜丸": {
+      "forward_edges": [
+        {
+          "from_user": "吃掉菜丸",
+          "to_user": "长命百岁这事一次就好",
+          "content": "哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈我真是笑死",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        },
+        {
+          "from_user": "吃掉菜丸",
+          "to_user": "不如钓月亮",
+          "content": "真好诶",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "屁话游乐园": {
+      "forward_edges": [
+        {
+          "from_user": "屁话游乐园",
+          "to_user": "也不是猪只打呼_",
+          "content": "谢谢谢谢今年是哪年[赢牛奶]",
+          "comment_num": 0,
+          "likes_num": 1.0,
+          "forward_num": 0,
+          "weight": 1.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "也不是猪只打呼_": {
+      "forward_edges": [
+        {
+          "from_user": "也不是猪只打呼_",
+          "to_user": "晋啊卿 ",
+          "content": "谢谢过年好！[彩虹屁] http://t.cn/A6JWy0SA ",
+          "comment_num": 0,
+          "likes_num": 1.0,
+          "forward_num": 0,
+          "weight": 1.0
+        }
+      ],
+      "forward_by_edges": [
+        {
+          "from_user": "屁话游乐园",
+          "to_user": "也不是猪只打呼_",
+          "content": "谢谢谢谢今年是哪年[赢牛奶]",
+          "comment_num": 0,
+          "likes_num": 1.0,
+          "forward_num": 0,
+          "weight": 1.0
+        },
+        {
+          "from_user": "白屿芊",
+          "to_user": "也不是猪只打呼_",
+          "content": "过年好！！！",
+          "comment_num": 0,
+          "likes_num": 1.0,
+          "forward_num": 0,
+          "weight": 1.0
+        }
+      ]
+    },
+    "晋啊卿 ": {
+      "forward_edges": [
+        {
+          "from_user": "晋啊卿 ",
+          "to_user": "-不要说胡话 ",
+          "content": "！！哦莫哦莫",
+          "comment_num": 0,
+          "likes_num": 1.0,
+          "forward_num": 0,
+          "weight": 1.0
+        }
+      ],
+      "forward_by_edges": [
+        {
+          "from_user": "也不是猪只打呼_",
+          "to_user": "晋啊卿 ",
+          "content": "谢谢过年好！[彩虹屁] http://t.cn/A6JWy0SA ",
+          "comment_num": 0,
+          "likes_num": 1.0,
+          "forward_num": 0,
+          "weight": 1.0
+        },
+        {
+          "from_user": "真的是秃小于哈 ",
+          "to_user": "晋啊卿 ",
+          "content": "欢天喜地过新年???",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "-不要说胡话 ": {
+      "forward_edges": [],
+      "forward_by_edges": [
+        {
+          "from_user": "晋啊卿 ",
+          "to_user": "-不要说胡话 ",
+          "content": "！！哦莫哦莫",
+          "comment_num": 0,
+          "likes_num": 1.0,
+          "forward_num": 0,
+          "weight": 1.0
+        }
+      ]
+    },
+    "哲镛": {
+      "forward_edges": [
+        {
+          "from_user": "哲镛",
+          "to_user": "陆锡鑫",
+          "content": "巨难看",
+          "comment_num": 1,
+          "likes_num": 0.0,
+          "forward_num": 1,
+          "weight": 2.0
+        }
+      ],
+      "forward_by_edges": [
+        {
+          "from_user": "心向阳光20211007",
+          "to_user": "哲镛",
+          "content": " ",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "陆锡鑫": {
+      "forward_edges": [],
+      "forward_by_edges": [
+        {
+          "from_user": "哲镛",
+          "to_user": "陆锡鑫",
+          "content": "巨难看",
+          "comment_num": 1,
+          "likes_num": 0.0,
+          "forward_num": 1,
+          "weight": 2.0
+        }
+      ]
+    },
+    "楓_吱吱-he": {
+      "forward_edges": [
+        {
+          "from_user": "楓_吱吱-he",
+          "to_user": "爱潜水的乌贼本尊",
+          "content": "哇",
+          "comment_num": 0,
+          "likes_num": 2.0,
+          "forward_num": 0,
+          "weight": 2.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "三分奶绿重生版": {
+      "forward_edges": [
+        {
+          "from_user": "三分奶绿重生版",
+          "to_user": "储绪小片",
+          "content": "美得[泪]",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": [
+        {
+          "from_user": "狗喜发财",
+          "to_user": "三分奶绿重生版",
+          "content": "真的很厉害内[淚][抓狂]",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "储绪小片": {
+      "forward_edges": [],
+      "forward_by_edges": [
+        {
+          "from_user": "三分奶绿重生版",
+          "to_user": "储绪小片",
+          "content": "美得[泪]",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "hh的大风扇总是转啊转": {
+      "forward_edges": [
+        {
+          "from_user": "hh的大风扇总是转啊转",
+          "to_user": "亿键仙人跪",
+          "content": "我真的太喜欢朱广权了，就觉得他真的是个超级有魅力的人哇！！！！",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "亿键仙人跪": {
+      "forward_edges": [],
+      "forward_by_edges": [
+        {
+          "from_user": "hh的大风扇总是转啊转",
+          "to_user": "亿键仙人跪",
+          "content": "我真的太喜欢朱广权了，就觉得他真的是个超级有魅力的人哇！！！！",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "阿乔偶吧": {
+      "forward_edges": [
+        {
+          "from_user": "阿乔偶吧",
+          "to_user": "-請勿對月起誓",
+          "content": "春晚[笑哈哈][笑哈哈]",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "-請勿對月起誓": {
+      "forward_edges": [],
+      "forward_by_edges": [
+        {
+          "from_user": "阿乔偶吧",
+          "to_user": "-請勿對月起誓",
+          "content": "春晚[笑哈哈][笑哈哈]",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "兜兜kakkoi": {
+      "forward_edges": [
+        {
+          "from_user": "兜兜kakkoi",
+          "to_user": "·雨后初晴",
+          "content": "我就知道我就知道我就知道我就知道[泪][泪][泪][泪][泪][泪]",
+          "comment_num": 0,
+          "likes_num": 1.0,
+          "forward_num": 0,
+          "weight": 1.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "·雨后初晴": {
+      "forward_edges": [],
+      "forward_by_edges": [
+        {
+          "from_user": "兜兜kakkoi",
+          "to_user": "·雨后初晴",
+          "content": "我就知道我就知道我就知道我就知道[泪][泪][泪][泪][泪][泪]",
+          "comment_num": 0,
+          "likes_num": 1.0,
+          "forward_num": 0,
+          "weight": 1.0
+        }
+      ]
+    },
+    "株洲联通": {
+      "forward_edges": [
+        {
+          "from_user": "株洲联通",
+          "to_user": "湖南联通",
+          "content": "转发A",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "湖南联通": {
+      "forward_edges": [],
+      "forward_by_edges": [
+        {
+          "from_user": "株洲联通",
+          "to_user": "湖南联通",
+          "content": "转发A",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "Arigatito": {
+      "forward_edges": [
+        {
+          "from_user": "Arigatito",
+          "to_user": "白衣绣鹤 ",
+          "content": "",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "新雪乌龙·": {
+      "forward_edges": [
+        {
+          "from_user": "新雪乌龙·",
+          "to_user": "困比小狗",
+          "content": "哇趣[哆啦A梦害怕][哆啦A梦害怕]",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "困比小狗": {
+      "forward_edges": [
+        {
+          "from_user": "困比小狗",
+          "to_user": "没办法比他更好了",
+          "content": "有老婆的人 冬天兜兜里都会多出一双爪子是吧",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": [
+        {
+          "from_user": "新雪乌龙·",
+          "to_user": "困比小狗",
+          "content": "哇趣[哆啦A梦害怕][哆啦A梦害怕]",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "中国矿业大学": {
+      "forward_edges": [
+        {
+          "from_user": "中国矿业大学",
+          "to_user": "中国大学生在线",
+          "content": "#CCTV网络春晚#等你来",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "中国大学生在线": {
+      "forward_edges": [],
+      "forward_by_edges": [
+        {
+          "from_user": "中国矿业大学",
+          "to_user": "中国大学生在线",
+          "content": "#CCTV网络春晚#等你来",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "张吴夫妇": {
+      "forward_edges": [
+        {
+          "from_user": "张吴夫妇",
+          "to_user": "吴敏霞",
+          "content": "#吴敏霞[超话]# 2022一起快乐@吴敏霞 ",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "吴敏霞": {
+      "forward_edges": [],
+      "forward_by_edges": [
+        {
+          "from_user": "张吴夫妇",
+          "to_user": "吴敏霞",
+          "content": "#吴敏霞[超话]# 2022一起快乐@吴敏霞 ",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "深深淺淺星星鐵粉": {
+      "forward_edges": [],
+      "forward_by_edges": [
+        {
+          "from_user": "給我一隻貓916",
+          "to_user": "深深淺淺星星鐵粉",
+          "content": "#央视虎年春晚# [兔子]#央视2022网络春晚官宣# ",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "zanthoxyli": {
+      "forward_edges": [
+        {
+          "from_user": "zanthoxyli",
+          "to_user": "野球选手海盐鼠尾草",
+          "content": "要参加吗",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "野球选手海盐鼠尾草": {
+      "forward_edges": [],
+      "forward_by_edges": [
+        {
+          "from_user": "zanthoxyli",
+          "to_user": "野球选手海盐鼠尾草",
+          "content": "要参加吗",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "万人米蛋·蛋 ": {
+      "forward_edges": [
+        {
+          "from_user": "万人米蛋·蛋 ",
+          "to_user": "芦柑榨汁 ",
+          "content": "厚乳",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "芦柑榨汁 ": {
+      "forward_edges": [
+        {
+          "from_user": "芦柑榨汁 ",
+          "to_user": "sraeppELCARIM ",
+          "content": "眼睛的斜率乳了",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": [
+        {
+          "from_user": "万人米蛋·蛋 ",
+          "to_user": "芦柑榨汁 ",
+          "content": "厚乳",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "sraeppELCARIM ": {
+      "forward_edges": [
+        {
+          "from_user": "sraeppELCARIM ",
+          "to_user": "二本逼 ",
+          "content": "乳了",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": [
+        {
+          "from_user": "芦柑榨汁 ",
+          "to_user": "sraeppELCARIM ",
+          "content": "眼睛的斜率乳了",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "二本逼 ": {
+      "forward_edges": [],
+      "forward_by_edges": [
+        {
+          "from_user": "sraeppELCARIM ",
+          "to_user": "二本逼 ",
+          "content": "乳了",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "Kumquat·寓诚心意": {
+      "forward_edges": [
+        {
+          "from_user": "Kumquat·寓诚心意",
+          "to_user": "AU·被超蛊了",
+          "content": "考前复习",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "肥嘟嘟左卫佳": {
+      "forward_edges": [
+        {
+          "from_user": "肥嘟嘟左卫佳",
+          "to_user": "孽上为薛 ",
+          "content": "我靠我靠我靠",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "孽上为薛 ": {
+      "forward_edges": [],
+      "forward_by_edges": [
+        {
+          "from_user": "肥嘟嘟左卫佳",
+          "to_user": "孽上为薛 ",
+          "content": "我靠我靠我靠",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "诡秘之主官方A ": {
+      "forward_edges": [
+        {
+          "from_user": "诡秘之主官方A ",
+          "to_user": "爱潜水的乌贼本尊 ",
+          "content": "期待新的一年，可以看到更多袁野老师[二哈][二哈]的文字",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "爱潜水的乌贼本尊 ": {
+      "forward_edges": [],
+      "forward_by_edges": [
+        {
+          "from_user": "诡秘之主官方A ",
+          "to_user": "爱潜水的乌贼本尊 ",
+          "content": "期待新的一年，可以看到更多袁野老师[二哈][二哈]的文字",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        },
+        {
+          "from_user": "小橘子长大了就是大橘子 ",
+          "to_user": "爱潜水的乌贼本尊 ",
+          "content": "看到有人说乌贼上春晚是为了完成晋升序列0作家的仪式……笑吐了",
+          "comment_num": 0,
+          "likes_num": 1.0,
+          "forward_num": 0,
+          "weight": 1.0
+        }
+      ]
+    },
+    "levin35": {
+      "forward_edges": [
+        {
+          "from_user": "levin35",
+          "to_user": "阿杰729安利小分队",
+          "content": "啊~！阿杰网友你好！~[赢牛奶]",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "阿杰729安利小分队": {
+      "forward_edges": [],
+      "forward_by_edges": [
+        {
+          "from_user": "levin35",
+          "to_user": "阿杰729安利小分队",
+          "content": "啊~！阿杰网友你好！~[赢牛奶]",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "温温是2秒de绅士": {
+      "forward_edges": [
+        {
+          "from_user": "温温是2秒de绅士",
+          "to_user": "诡秘之主官方A",
+          "content": "乌贼老师痛失网名[哆啦A梦害怕]",
+          "comment_num": 1,
+          "likes_num": 0.0,
+          "forward_num": 2,
+          "weight": 3.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "熊猫有麻麻在支持 ": {
+      "forward_edges": [
+        {
+          "from_user": "熊猫有麻麻在支持 ",
+          "to_user": "淋漓-KKW ",
+          "content": "央视没有啦，需要封闭录制半个月吧，所以没时间。",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "淋漓-KKW ": {
+      "forward_edges": [],
+      "forward_by_edges": [
+        {
+          "from_user": "熊猫有麻麻在支持 ",
+          "to_user": "淋漓-KKW ",
+          "content": "央视没有啦，需要封闭录制半个月吧，所以没时间。",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "northpoleL": {
+      "forward_edges": [
+        {
+          "from_user": "northpoleL",
+          "to_user": "Cee3R",
+          "content": "",
+          "comment_num": 0,
+          "likes_num": 1.0,
+          "forward_num": 0,
+          "weight": 1.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "郝科长妹妹郝想你": {
+      "forward_edges": [
+        {
+          "from_user": "郝科长妹妹郝想你",
+          "to_user": "_取月色二两1999",
+          "content": "是和沈腾 沈腾自己开车进去了",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "_取月色二两1999": {
+      "forward_edges": [],
+      "forward_by_edges": [
+        {
+          "from_user": "郝科长妹妹郝想你",
+          "to_user": "_取月色二两1999",
+          "content": "是和沈腾 沈腾自己开车进去了",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "阳光飘逸的云": {
+      "forward_edges": [
+        {
+          "from_user": "阳光飘逸的云",
+          "to_user": "六桃手里的暖宝宝tamia",
+          "content": "时刻注意他人的安全，暖心桃子[抱一抱]",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "涂山苏苏ipad养乐多": {
+      "forward_edges": [
+        {
+          "from_user": "涂山苏苏ipad养乐多",
+          "to_user": "木辛梓梓辛木",
+          "content": "sj",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 1,
+          "weight": 1.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "木辛梓梓辛木": {
+      "forward_edges": [
+        {
+          "from_user": "木辛梓梓辛木",
+          "to_user": "三分之一个你是草莓味",
+          "content": "",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 1,
+          "weight": 1.0
+        }
+      ],
+      "forward_by_edges": [
+        {
+          "from_user": "涂山苏苏ipad养乐多",
+          "to_user": "木辛梓梓辛木",
+          "content": "sj",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 1,
+          "weight": 1.0
+        }
+      ]
+    },
+    "三分之一个你是草莓味": {
+      "forward_edges": [],
+      "forward_by_edges": [
+        {
+          "from_user": "木辛梓梓辛木",
+          "to_user": "三分之一个你是草莓味",
+          "content": "",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 1,
+          "weight": 1.0
+        }
+      ]
+    },
+    "素之行行复行行": {
+      "forward_edges": [
+        {
+          "from_user": "素之行行复行行",
+          "to_user": "落樱花开",
+          "content": "哇，不错",
+          "comment_num": 5,
+          "likes_num": 5.0,
+          "forward_num": 0,
+          "weight": 10.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "落樱花开": {
+      "forward_edges": [],
+      "forward_by_edges": [
+        {
+          "from_user": "素之行行复行行",
+          "to_user": "落樱花开",
+          "content": "哇，不错",
+          "comment_num": 5,
+          "likes_num": 5.0,
+          "forward_num": 0,
+          "weight": 10.0
+        }
+      ]
+    },
+    "白屿芊": {
+      "forward_edges": [
+        {
+          "from_user": "白屿芊",
+          "to_user": "也不是猪只打呼_",
+          "content": "过年好！！！",
+          "comment_num": 0,
+          "likes_num": 1.0,
+          "forward_num": 0,
+          "weight": 1.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "车站的云": {
+      "forward_edges": [
+        {
+          "from_user": "车站的云",
+          "to_user": "我真的只是想起个名字",
+          "content": "蟹蟹！[悲伤]",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "不如钓月亮": {
+      "forward_edges": [],
+      "forward_by_edges": [
+        {
+          "from_user": "吃掉菜丸",
+          "to_user": "不如钓月亮",
+          "content": "真好诶",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "·渝州梦游·": {
+      "forward_edges": [
+        {
+          "from_user": "·渝州梦游·",
+          "to_user": "dear从前有只小逗比",
+          "content": "哈哈哈哈哈哈哈",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "特伦索斯特黄铜书": {
+      "forward_edges": [
+        {
+          "from_user": "特伦索斯特黄铜书",
+          "to_user": "诡秘之主官方A",
+          "content": "",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "若霖朤月": {
+      "forward_edges": [
+        {
+          "from_user": "若霖朤月",
+          "to_user": "未度失",
+          "content": "央视网络春晚？开新网友郑云龙@郑云龙DL 哈哈哈",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "未度失": {
+      "forward_edges": [],
+      "forward_by_edges": [
+        {
+          "from_user": "若霖朤月",
+          "to_user": "未度失",
+          "content": "央视网络春晚？开新网友郑云龙@郑云龙DL 哈哈哈",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "尘埃亲吻星辰": {
+      "forward_edges": [
+        {
+          "from_user": "尘埃亲吻星辰",
+          "to_user": "快乐奶油芙",
+          "content": "乡愁变年愁",
+          "comment_num": 4,
+          "likes_num": 2.0,
+          "forward_num": 1,
+          "weight": 7.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "快乐奶油芙": {
+      "forward_edges": [],
+      "forward_by_edges": [
+        {
+          "from_user": "尘埃亲吻星辰",
+          "to_user": "快乐奶油芙",
+          "content": "乡愁变年愁",
+          "comment_num": 4,
+          "likes_num": 2.0,
+          "forward_num": 1,
+          "weight": 7.0
+        }
+      ]
+    },
+    "浇花帮主回来了": {
+      "forward_edges": [
+        {
+          "from_user": "浇花帮主回来了",
+          "to_user": "Lu的星辰大海",
+          "content": "",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "Lu的星辰大海": {
+      "forward_edges": [],
+      "forward_by_edges": [
+        {
+          "from_user": "浇花帮主回来了",
+          "to_user": "Lu的星辰大海",
+          "content": "",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "喻思南的女人是zj的歌迷": {
+      "forward_edges": [
+        {
+          "from_user": "喻思南的女人是zj的歌迷",
+          "to_user": "春风再美",
+          "content": "#张杰再登央视春晚#//老司机带带我[污]@叶珺颖:[哈哈]",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "春风再美": {
+      "forward_edges": [],
+      "forward_by_edges": [
+        {
+          "from_user": "喻思南的女人是zj的歌迷",
+          "to_user": "春风再美",
+          "content": "#张杰再登央视春晚#//老司机带带我[污]@叶珺颖:[哈哈]",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "是凯源啦": {
+      "forward_edges": [
+        {
+          "from_user": "是凯源啦",
+          "to_user": "卡肉依",
+          "content": "救命甜死谁了",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "艺术家汇演": {
+      "forward_edges": [
+        {
+          "from_user": "艺术家汇演",
+          "to_user": "樂兒-BADY醬",
+          "content": "虎年大吉[嘻嘻]",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "樂兒-BADY醬": {
+      "forward_edges": [],
+      "forward_by_edges": [
+        {
+          "from_user": "艺术家汇演",
+          "to_user": "樂兒-BADY醬",
+          "content": "虎年大吉[嘻嘻]",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "小橘子长大了就是大橘子 ": {
+      "forward_edges": [
+        {
+          "from_user": "小橘子长大了就是大橘子 ",
+          "to_user": "爱潜水的乌贼本尊 ",
+          "content": "看到有人说乌贼上春晚是为了完成晋升序列0作家的仪式……笑吐了",
+          "comment_num": 0,
+          "likes_num": 1.0,
+          "forward_num": 0,
+          "weight": 1.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "新罗漫蒂克 ": {
+      "forward_edges": [
+        {
+          "from_user": "新罗漫蒂克 ",
+          "to_user": "草莓望仔·人淡如菊版 ",
+          "content": "受不了了",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "草莓望仔·人淡如菊版 ": {
+      "forward_edges": [],
+      "forward_by_edges": [
+        {
+          "from_user": "新罗漫蒂克 ",
+          "to_user": "草莓望仔·人淡如菊版 ",
+          "content": "受不了了",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "心向阳光20211007": {
+      "forward_edges": [
+        {
+          "from_user": "心向阳光20211007",
+          "to_user": "哲镛",
+          "content": " ",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "小喂追着姐姐跑": {
+      "forward_edges": [
+        {
+          "from_user": "小喂追着姐姐跑",
+          "to_user": "晚风吹过月亮湾",
+          "content": "期待住了！！！！",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "晚风吹过月亮湾": {
+      "forward_edges": [],
+      "forward_by_edges": [
+        {
+          "from_user": "小喂追着姐姐跑",
+          "to_user": "晚风吹过月亮湾",
+          "content": "期待住了！！！！",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "姿大圣": {
+      "forward_edges": [
+        {
+          "from_user": "姿大圣",
+          "to_user": "舍予谓得",
+          "content": "春晚小品只要答应我不煽情，我甚至愿意让潘淑回来[白眼]",
+          "comment_num": 0,
+          "likes_num": 1.0,
+          "forward_num": 0,
+          "weight": 1.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "舍予谓得": {
+      "forward_edges": [],
+      "forward_by_edges": [
+        {
+          "from_user": "姿大圣",
+          "to_user": "舍予谓得",
+          "content": "春晚小品只要答应我不煽情，我甚至愿意让潘淑回来[白眼]",
+          "comment_num": 0,
+          "likes_num": 1.0,
+          "forward_num": 0,
+          "weight": 1.0
+        }
+      ]
+    },
+    "叹奏无弦 ": {
+      "forward_edges": [
+        {
+          "from_user": "叹奏无弦 ",
+          "to_user": "真的是秃小于哈 ",
+          "content": "[开学季][开学季]芜湖爷爷爷爷爷爷爷爷青回啦嗷嗷嗷",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "真的是秃小于哈 ": {
+      "forward_edges": [
+        {
+          "from_user": "真的是秃小于哈 ",
+          "to_user": "晋啊卿 ",
+          "content": "欢天喜地过新年???",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": [
+        {
+          "from_user": "叹奏无弦 ",
+          "to_user": "真的是秃小于哈 ",
+          "content": "[开学季][开学季]芜湖爷爷爷爷爷爷爷爷青回啦嗷嗷嗷",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "我真的没有在喝奶茶": {
+      "forward_edges": [],
+      "forward_by_edges": [
+        {
+          "from_user": "八月小七bot",
+          "to_user": "我真的没有在喝奶茶",
+          "content": "“涛姐加油！”小桃攥紧小拳拳[拳头][亲亲]",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 2,
+          "weight": 2.0
+        }
+      ]
+    },
+    "泡腾片本片": {
+      "forward_edges": [
+        {
+          "from_user": "泡腾片本片",
+          "to_user": "顺腾摸瓜一只猹",
+          "content": "腾哥[打call][打call]祝彩排顺利[给你小心心][给你小心心]",
+          "comment_num": 0,
+          "likes_num": 1.0,
+          "forward_num": 0,
+          "weight": 1.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "小钱爱吃菠萝油": {
+      "forward_edges": [
+        {
+          "from_user": "小钱爱吃菠萝油",
+          "to_user": "谁上动物园看猪",
+          "content": "醒腾脑壳怎么这么大",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "SAI恩斯": {
+      "forward_edges": [
+        {
+          "from_user": "SAI恩斯",
+          "to_user": "顺腾摸瓜一只猹 ",
+          "content": "啊啊啊啊啊啊期待",
+          "comment_num": 0,
+          "likes_num": 1.0,
+          "forward_num": 0,
+          "weight": 1.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "lll从梦中看到苏醒": {
+      "forward_edges": [
+        {
+          "from_user": "lll从梦中看到苏醒",
+          "to_user": "将爱Bena",
+          "content": "艾马腾远冲冲冲！",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "将爱Bena": {
+      "forward_edges": [],
+      "forward_by_edges": [
+        {
+          "from_user": "lll从梦中看到苏醒",
+          "to_user": "将爱Bena",
+          "content": "艾马腾远冲冲冲！",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "_小猫娘_": {
+      "forward_edges": [
+        {
+          "from_user": "_小猫娘_",
+          "to_user": "卡肉依",
+          "content": "[笑cry][笑cry]",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "狗喜发财": {
+      "forward_edges": [
+        {
+          "from_user": "狗喜发财",
+          "to_user": "三分奶绿重生版",
+          "content": "真的很厉害内[淚][抓狂]",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "芦柑榨汁": {
+      "forward_edges": [
+        {
+          "from_user": "芦柑榨汁",
+          "to_user": "sraeppELCARIM",
+          "content": "眼睛的斜率乳了",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": []
+    },
+    "sraeppELCARIM": {
+      "forward_edges": [
+        {
+          "from_user": "sraeppELCARIM",
+          "to_user": "二本逼",
+          "content": "乳了",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ],
+      "forward_by_edges": [
+        {
+          "from_user": "芦柑榨汁",
+          "to_user": "sraeppELCARIM",
+          "content": "眼睛的斜率乳了",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "二本逼": {
+      "forward_edges": [],
+      "forward_by_edges": [
+        {
+          "from_user": "sraeppELCARIM",
+          "to_user": "二本逼",
+          "content": "乳了",
+          "comment_num": 0,
+          "likes_num": 0.0,
+          "forward_num": 0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "Ms_Elbencathy": {
+      "forward_edges": [
+        {
+          "from_user": "Ms_Elbencathy",
+          "to_user": "顺腾摸瓜一只猹",
+          "content": "沈腾是大宝贝[悲伤]",
+          "comment_num": 0,
+          "likes_num": 1.0,
+          "forward_num": 0,
+          "weight": 1.0
+        }
+      ],
+      "forward_by_edges": []
+    }
+  }
+}
