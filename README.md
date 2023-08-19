@@ -45,11 +45,11 @@ cd scripts/graph
     ```json
     {
         "nodes" : {
-            user1 : {
+            "user1" : {
                 "forward_edges" : [],
                 "forward_by_edges": []
             },
-            user2 : {
+            "user2" : {
                 "forward_edges" : [],
                 "forward_by_edges": []
             }
